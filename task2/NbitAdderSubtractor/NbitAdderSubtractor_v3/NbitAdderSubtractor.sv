@@ -5,6 +5,8 @@ module NbitAdderSubtractor3
   
   logic [NBIT-1:0] firstByte_complement, secondByte_complement, result_complement;
   
+  // Same story as for NbitAdderSubtractor2 with begin end
+  // From latch point of view I think everything should be ok
   always_comb
     begin
     if(firstByte_i[NBIT-1]==1)
@@ -30,3 +32,4 @@ module NbitAdderSubtractor3
   assign result_o = result_complement;
     
 endmodule
+// In general looks cool

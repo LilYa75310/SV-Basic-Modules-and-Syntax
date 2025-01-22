@@ -14,13 +14,16 @@ module array_multiplier_4x4 (
       end
     end
   endgenerate
-  
+  //Cool aproach here, I think Cadence could implement it without problem
+  // Also I hope that line 21 was correctly written and shifted value is filled by zeros when i = 0,1,2
   generate
     for(i=0; i<4;i++) begin: forGendigitForSum
       assign eachProdOfBit[i][7:0] = pp[i][3:0] << i;  
     end
   endgenerate
   
+  //I think this assign also could be in generate, just for consistency)))
   assign product_o = eachProdOfBit[0][7:0] + eachProdOfBit[1][7:0] + eachProdOfBit[2][7:0]+ eachProdOfBit[3][7:0];
 
 endmodule
+//looks really cool
