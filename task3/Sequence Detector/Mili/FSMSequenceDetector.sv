@@ -52,7 +52,7 @@ module FSMSequenceDetector (input logic clk_c, reset_r, in_i,
   	end
    end
   //output logic
-  assign qResult = (in_i & state == detFourthDigit1);
+  assign qResult = (in_i && (state == detFourthDigit1));
   //Additional register to have the same steps as Moore's FSM.
   always_ff @(posedge clk_c, posedge reset_r) 
    begin
