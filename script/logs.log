@@ -1,0 +1,16 @@
+source3.c
+source4.c
+source1.c
+source2.c
+bash: start script
+tcl: starting search script
+verbose: true
+dir: ./test_files/
+pattern: source*
+tcl : found matching file at C:/Users/lilya/OneDrive/Desktop/Basic Modules and Syntax/script/test_files/nested_dir/source3.c
+tcl : found matching file at C:/Users/lilya/OneDrive/Desktop/Basic Modules and Syntax/script/test_files/nested_dir/source4.c
+tcl : found matching file at C:/Users/lilya/OneDrive/Desktop/Basic Modules and Syntax/script/test_files/source1.c
+tcl : found matching file at C:/Users/lilya/OneDrive/Desktop/Basic Modules and Syntax/script/test_files/source2.c
+tcl : total matching files: 4
+tcl: search script finished
+bash: script finish
