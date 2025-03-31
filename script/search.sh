@@ -90,6 +90,6 @@ then
 fi
 
 
-tclsh ./find_pattern.tcl $VERBOSE $DIRECTORY $PATTERN 
+tclsh ./find_pattern.tcl $VERBOSE "$DIRECTORY" "$PATTERN"
 
 $VERBOSE && echo "bash: script finish"
