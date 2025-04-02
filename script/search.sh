@@ -44,7 +44,7 @@ do
             display_help
             exit 1
             ;;
-        /* | ./*)
+        */ | ./* | /*)
             DIRECTORY=$1
             ;;
         *)
@@ -83,7 +83,7 @@ if [ -z "$PATTERN" ]; then
     exit 1
 fi
 
-if [ -z $DIRECTORY ]
+if [ -z "$DIRECTORY" ]
 then
     DIRECTORY=$(pwd)
     $VERBOSE && echo "bash: current directory $DIRECTORY"
