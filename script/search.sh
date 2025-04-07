@@ -10,12 +10,12 @@ function display_help()
     echo "  -s, --silent     Suppress output, logging results only"
     echo
     echo "Examples:"
-    echo "  $0 -v -t file.c # Verbose search for 'file.c' and log time taken"
-    echo "  $0 -v -t file.c # Verbose search for 'file.c' and log time taken"
-    echo "  $0 -v -t directory_path file.c "
+    echo "  $0 -vs file.c # Verbose search for 'file.c' and logging results only"
+    echo "  $0 -v -s file.c # Verbose search for 'file.c' and logging results only"
+    echo "  $0 -v directory_path file.c # Verbose search for 'file.c in' 'directory_path'"
     echo
     echo "Note:"
-    echo " If no directory is specified, the current directory is used. "
+    echo " If no directory is specified, the current directory (script placement) is used. "
 }
 
 VERBOSE=false

@@ -14,3 +14,19 @@ tcl : found matching file at C:/Users/lilya/OneDrive/Desktop/Basic Modules and S
 tcl : total matching files: 4
 tcl: search script finished
 bash: script finish
+bash: start script
+bash: current directory /c/Users/lilya/OneDrive/Desktop/Basic Modules and Syntax/script
+tcl: starting search script
+verbose: true
+dir: C:/Users/lilya/OneDrive/Desktop/Basic Modules and Syntax/script
+pattern: *c
+tcl : found matching file at C:/Users/lilya/OneDrive/Desktop/Basic Modules and Syntax/script/test_files/main.c
+tcl : found matching file at C:/Users/lilya/OneDrive/Desktop/Basic Modules and Syntax/script/test_files/main2.c
+tcl : found matching file at C:/Users/lilya/OneDrive/Desktop/Basic Modules and Syntax/script/test_files/nested_dir/main3.c
+tcl : found matching file at C:/Users/lilya/OneDrive/Desktop/Basic Modules and Syntax/script/test_files/nested_dir/source3.c
+tcl : found matching file at C:/Users/lilya/OneDrive/Desktop/Basic Modules and Syntax/script/test_files/nested_dir/source4.c
+tcl : found matching file at C:/Users/lilya/OneDrive/Desktop/Basic Modules and Syntax/script/test_files/source1.c
+tcl : found matching file at C:/Users/lilya/OneDrive/Desktop/Basic Modules and Syntax/script/test_files/source2.c
+tcl : total matching files: 7
+tcl: search script finished
+bash: script finish
